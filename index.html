@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- STYLES -->
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/favicon.ico">
+
+  <!-- SCRIPTS -->
+
+  <script src="burger.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="tabs.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+
+  <title>Евклид</title>
+
+</head>
+<body class="page">
+
+  <header class="header">
+
+    <div class="container" id='container'>
+      <div class="header-container">
+        <div class="header__burger" id="burger">
+          <span></span>
+        </div>
+
+        <a href="#" class="header__logo" aria-label="Логотип Евклид">
+          <img src="img/Logo.svg" alt="Логотип Евклид" class="logo">
+        </a>
+
+        <nav class="navigation header__navigation" id="menu">
+          <ul class="navigation__list">
+            <li class="navigation__list-item">
+              <a href="#" class="navigation__link link_color_black">
+                О нас
+              </a>
+            </li>
+            <li class="navigation__list-item">
+              <a href="" class="navigation__link link_color_black">
+                Проекты
+              </a>
+            </li>
+            <li class="navigation__list-item">
+              <a href="" class="navigation__link link_color_black">
+                Этапы
+              </a>
+            </li>
+            <li class="navigation__list-item">
+              <a href="" class="navigation__link link_color_black">
+                Отзывы
+              </a>
+            </li>
+            <li class="navigation__list-item">
+              <a href="" class="navigation__link link_color_black">
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button aria-label="Поиск" class="search-button header__search-button">
+        </button>
+
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+
+    <section class="hero-section">
+
+      <div class="container">
+        <div class="hero-section__container">
+
+          <div class="swiper">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide swiper-slide-1" style="background-image: url(img/hero\ section\ 1.jpg); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div>
+                <div class="swiper-slide" style="background-image: url(img/hero\ section\ 2.jpg); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div>
+                <div class="swiper-slide" style="background-image: url(img/hero\ section\ 3.jpg); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div>
+            </div>
+
+
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <div class="hero-section__description">
+            <h1 class="hero-section__heading">
+              Проектные решения любой сложности
+            </h1>
+            <p class="hero-section__text">
+              Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов
+            </p>
+            <a href="#" class="hero-section__link link link_padding_25 link_background-color_orange link_font-size_23px link_font-weight_700 link_color_white">
+              Заказать расчет
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section class="about-section">
+
+      <div class="container">
+        <div class="about-section__container">
+
+          <h2 class="heading about-section__heading">
+            О нас
+          </h2>
+          <p class="about-section__text text text_color_black text_font-weight_400">
+            Также как перспективное планирование создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей масштабности и грандиозности. А также диаграммы связей могут быть описаны максимально подробно. Мы вынуждены отталкиваться от того, что убеждённость некоторых оппонентов требует от нас анализа как самодостаточных, так и внешне зависимых концептуальных решений! Следует отметить, что высококачественный прототип <abbr><img src="/img/i - Тултип.svg" alt="тултип" class="tooltip"></abbr> будущего проекта предопределяет высокую востребованность позиций, занимаемых участниками в отношении поставленных задач. Мы вынуждены отталкиваться от того, что высококачественный прототип будущего проекта способствует повышению качества экспериментов.
+          </p>
+
+          <div class="more-info">
+            <div class="more-info__block more-info__block-1">
+              <div class="more-info__block_opacity_50">
+                <p class="more-info__text_white text text_font-weight_700 text_color_white">
+                  Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и реализации новых принципов.
+                </p>
+                <a href="#" class="more-info__link link link_padding_20 link_font-weight_700 link_color_white">
+                  Подробнее
+                </a>
+              </div>
+            </div>
+
+            <div class="more-info__block_320">
+              <p class="more-info__text_320">
+                Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и реализации новых принципов.
+              </p>
+              <a href="#" class="more-info__link_320">
+                Подробнее
+              </a>
+            </div>
+
+            <div class="more-info__block more-info__block-2">
+              <div class="more-info__card more-info__card-1">
+                <div class="more-info__icon-1"></div>
+                <div class="more-info__card-description">
+                  <h3 class="more-info__card-heading">
+                  Консультация с широким активом
+                  </h3>
+                  <p class="more-info__text text text_color_black text_font-weight_400">
+                  А также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для как самодостаточных, так и внешне зависимых концептуальных решений.
+                </p>
+                </div>
+
+              </div>
+
+              <div class="more-info__card more-info__card-2">
+                <div class="more-info__icon-2"></div>
+                <div class="more-info__card-description">
+                  <h3 class="more-info__card-heading">
+                  В своём стремлении повысить
+                  </h3>
+                  <p class="more-info__text text text_color_black text_font-weight_400">
+                  Качество жизни, они забывают, что сплочённость команды профессионалов представляет собой интересный эксперимент проверки прогресса профессионального сообщества.
+                </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section class="how-section">
+
+      <div class="container">
+        <div class="how-section__container">
+
+          <h2 class="heading how-section__heading">
+            Как мы работаем
+          </h2>
+
+          <div class="how-section__list-of-steps">
+            <button class="how-section__button tabs_btn" aria-label="Первый шаг" data-path="one">1 шаг</button>
+
+            <button class="how-section__button tabs_btn" aria-label="Второй шаг" data-path="two">2 шаг</button>
+
+            <button class="how-section__button tabs_btn" aria-label="Третий шаг" data-path="three">3 шаг</button>
+
+            <button class="how-section__button tabs_btn" aria-label="Четвёртый шаг" data-path="four">4 шаг</button>
+
+          </div>
+
+          <div class="tab-content tab-content-active" data-target="one">
+            <div class="how-section__step-1">
+
+              <div class="how-section__step-1-description">
+                <h3 class="how-section__step-1-heading">
+                  Проводим консультацию
+                </h3>
+                <p class="how-section__step-1-text text text_color_black text_font-weight_400">
+                  Влечет за собой процесс внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями. А также представители современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования подвергнуты целой серии независимых исследований. Кстати,  стремящиеся вытеснить традиционное производство, нанотехнологии освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, призваны к ответу.
+                </p>
+
+                <a href="#" class="how-section__link-more link link_color_white link_font-weight_700 link_font-size_16px link_padding_20 link_background-color_orange">
+                  Подробнее
+                </a>
+
+                <a href="#" class="how-section__link-agreement link link_color_black link_font-weight_400 link_padding_20">
+                  Договор
+                </a>
+
+              </div>
+
+              <img src="img/how we work 1.jpg" alt="Проводим консультацию" class="how-section__step-1-picture">
+
+            </div>
+          </div>
+
+          <div class="tab-content" data-target="two">
+            <div class="how-section__step-1">
+
+              <div class="how-section__step-1-description">
+                <h3 class="how-section__step-1-heading">
+                  Составляем смету
+                </h3>
+                <p class="how-section__step-1-text text text_color_black text_font-weight_400">
+                  Внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями. А также представители современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования подвергнуты целой серии независимых исследований.
+                </p>
+
+                <a href="#" class="how-section__link-more link link_color_white link_font-weight_700 link_font-size_16px link_padding_20 link_background-color_orange">
+                  Подробнее
+                </a>
+
+                <a href="#" class="how-section__link-agreement link link_color_black link_font-weight_400 link_padding_20">
+                  Договор
+                </a>
+
+            </div>
+
+            <img src="img/how we work 2.jpg" alt="Проводим консультацию" class="how-section__step-1-picture">
+
+          </div>
+          </div>
+          <div class="tab-content" data-target="three">
+            <div class="how-section__step-1">
+
+            <div class="how-section__step-1-description">
+              <h3 class="how-section__step-1-heading">
+                Привлекаем подрядчиков
+              </h3>
+              <p class="how-section__step-1-text text text_color_black text_font-weight_400">
+                Идейные соображения высшего порядка, а также новая модель организационной деятельности требует анализа прогресса профессионального сообщества. Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от дальнейших направлений развития. Разнообразный и богатый опыт говорит нам, что новая модель организационной деятельности говорит о возможностях системы массового участия. Принимая во внимание показатели успешности, постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнить важные задания по разработке прогресса профессионального сообщества.
+              </p>
+
+              <a href="#" class="how-section__link-more link link_color_white link_font-weight_700 link_font-size_16px link_padding_20 link_background-color_orange">
+                Подробнее
+              </a>
+
+              <a href="#" class="how-section__link-agreement link link_color_black link_font-weight_400 link_padding_20">
+                Договор
+              </a>
+
+            </div>
+
+            <img src="img/how we work 3.jpg" alt="Проводим консультацию" class="how-section__step-1-picture">
+
+          </div>
+          </div>
+          <div class="tab-content" data-target="four">
+            <div class="how-section__step-1">
+
+            <div class="how-section__step-1-description">
+              <h3 class="how-section__step-1-heading">
+                Инспектируем все этапы работ
+              </h3>
+              <p class="how-section__step-1-text text text_color_black text_font-weight_400">
+                Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от дальнейших направлений развития. Разнообразный и богатый опыт говорит нам, что новая модель организационной деятельности говорит о возможностях системы массового участия. Принимая во внимание показатели успешности, постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет.
+              </p>
+
+              <a href="#" class="how-section__link-more link link_color_white link_font-weight_700 link_font-size_16px link_padding_20 link_background-color_orange">
+                Подробнее
+              </a>
+
+              <a href="#" class="how-section__link-agreement link link_color_black link_font-weight_400 link_padding_20">
+                Договор
+              </a>
+
+            </div>
+
+            <img src="img/how we work 4.jpg" alt="Проводим консультацию" class="how-section__step-1-picture">
+
+          </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section class="FAQ-section">
+
+      <div class="container">
+        <div class="FAQ-section__container">
+
+          <h2 class="heading FAQ-section__heading">
+            Часто задаваемые вопросы
+          </h2>
+
+          <div id="accordion">
+            <h3 class="FAQ__question">Из чего формируется конечная стоимость проекта?
+              <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z" fill="#666666"/>
+              </svg>
+            </h3>
+            <div>
+              <p class="accordion__text accordion__text-first-paragraph">
+                Являясь всего лишь частью общей картины, непосредственные участники технического прогресса призывают нас к новым свершениям, которые, в свою очередь, должны быть своевременно верифицированы. Но высококачественный прототип будущего проекта является качественно новой ступенью первоочередных требований. А ещё некоторые особенности внутренней политики, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут объявлены нарушающими общечеловеческие нормы этики и морали. И нет сомнений, что явные признаки победы институционализации призывают нас к новым свершениям, которые, в свою очередь, должны быть указаны как претенденты на роль ключевых факторов.
+              </p>
+              <p class="accordion__text">
+                Приятно, граждане, наблюдать, как некоторые особенности внутренней политики могут быть призваны к ответу. Явные признаки победы институционализации набирают популярность среди определенных слоев населения, а значит, должны быть объединены в целые кластеры себе подобных. Банальные, но неопровержимые выводы, а также многие известные личности призывают нас к новым свершениям, которые, в свою очередь, должны быть представлены в исключительно положительном свете.
+              </p>
+            </div>
+            <h3 class="FAQ__question">У меня есть свой проект. Сможем ли мы его доработать / реализовать?
+              <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z" fill="#666666"/>
+              </svg>
+            </h3>
+            <div>
+              <p class="accordion__text">
+                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Если свой парадигматическая всемогущая. Даль сих взобравшись большого ведущими продолжил текстов грустный встретил силуэт они повстречался наш ты, страну текстами?
+              </p>
+            </div>
+            <h3 class="FAQ__question">Я выбираю между разными компаниями. В чём ваше отличие?
+              <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z" fill="#666666"/>
+              </svg>
+            </h3>
+            <div>
+              <p class="accordion__text">
+                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Если свой парадигматическая всемогущая. Даль сих взобравшись большого ведущими продолжил текстов грустный встретил силуэт они повстречался наш ты, страну текстами?
+              </p>
+            </div>
+            <h3 class="FAQ__question">Могу ли я делегировать вам работу / согласование с подрядчиком / организацией?
+              <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z" fill="#666666"/>
+              </svg>
+            </h3>
+            <div>
+              <p class="accordion__text">
+                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Если свой парадигматическая всемогущая. Даль сих взобравшись большого ведущими продолжил текстов грустный встретил силуэт они повстречался наш ты, страну текстами?
+              </p>
+            </div>
+            <h3 class="FAQ__question">Могу ли я вернуть деньги на каком-либо из этапов работ?
+              <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z" fill="#666666"/>
+              </svg>
+            </h3>
+            <div>
+              <p class="accordion__text">
+                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Если свой парадигматическая всемогущая. Даль сих взобравшись большого ведущими продолжил текстов грустный встретил силуэт они повстречался наш ты, страну текстами?
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="footer">
+
+    <div class="container">
+      <div class="footer__container">
+
+        <div class="footer__block footer__block-1">
+
+          <a href="#" class="footer__logo" aria-label="Логотип Евклид">
+            <img src="img/Logo footer.svg" alt="Евклид">
+          </a>
+
+          <nav class="footer__nav">
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__link">О нас</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link">Проекты</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link">Отзывы</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link">Договор оферты</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link">Договор подряда</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link">Конфиденциальность</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link">Партнёрское соглашение</a>
+              </li>
+            </ul>
+          </nav>
+
+          <ul class="footer__social-networks">
+            <li>
+              <a aria-label="facebook" href="#" class="social-networks__link fb"></a>
+            </li>
+            <li>
+              <a aria-label="vkontakte" href="#" class="social-networks__link vk"></a>
+            </li>
+            <li>
+              <a aria-label="instagram" href="#" class="social-networks__link inst"></a>
+            </li>
+          </ul>
+
+        </div>
+
+        <div class="footer__block footer__block-2">
+
+          <h2 class="block-2__heading">
+            Оставить заявку
+          </h2>
+
+          <form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="footer__form">
+            <input type="text" name="name" placeholder="Фамилия, имя и отчество*" class="form__input form__input-1">
+            <input type="email" name="email" placeholder="Email*" class="form__input form__input-2">
+            <textarea name="message" placeholder="Сообщение" class="form__input-textarea form__input"></textarea>
+            <button type="submit" class="form__button link_background-color_orange link_font-weight_700 link_color_white">
+              Отправить данные
+            </button>
+            <input type="checkbox" required value="Согласен на обработку данных" name="personal data agreement" checked class="custom-checkbox" id="data-agreement">
+            <label for="data-agreement">Согласен на обработку данных</label>
+          </form>
+
+        </div>
+
+        <div class="footer__block footer__block-3">
+          <p class="footer__text text text_font-weight_400">
+            Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели развития. Таким образом, консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании стандартных подходов.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+  <script>
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+
+      a11y: {
+        paginationBulletMessage: 'Переключить слайд {{index}}',
+      }
+
+    });
+  </script>
+
+  <script>
+    $( function() {
+      $( "#accordion" ).accordion({
+        heightStyle: "content",
+        collapsible: true,
+        active: false,
+        icons: false,
+
+      });
+    });
+  </script>
+</body>
+</html>
